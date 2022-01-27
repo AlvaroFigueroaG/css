@@ -1,7 +1,10 @@
-/* Estilos para textos */
+/* Maquetación */
+body main section {
+    padding: 5vw;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+/* Estilos para textos */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* Tamaño de los textos */
 * {
@@ -61,7 +64,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant SC', serif;
     text-transform: capitalize;
     color: #557714;
 }
@@ -92,4 +95,16 @@ p.nota {
     background-color: aliceblue;
     border-left: 0.25em solid darkblue;
     border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+}
+
+.pechado {
+    color: white;
+}
+
+.justify {
+    color: white;
 }

@@ -39,3 +39,48 @@ header.portada h2 {
     color: #ffffff;
 }
 
+/* Imagenes validadores */
+
+/* Reglas comunes a los tres */
+figure.w3c.css {
+    background-image: url(../svg/w3c/css.svg);
+}
+
+figure.w3c.html5 {
+    background-image: url(../svg/w3c/html5.svg);
+}
+
+figure.w3c.wcag {
+    background-image: url(../svg/w3c/wcag.svg);
+}
+
+/* Reglas específicas para cada uno */
+figure.w3c html {
+    width: 88px;
+    height: 31px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* article.posicion {
+    position: relative;
+} */
+
+figure.caja {
+    width: 500px;
+    height: 300px;
+    background: yellow;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Skyline_and_Victoria_Harbour_at_dusk%2C_view_from_Victoria_Peak%2C_Hong_Kong%2C_China_-_%E9%A6%99%E6%B8%AF%EF%BC%8C%E4%B8%AD%E5%9B%BD_%2816215094838%29.jpg/1280px-Skyline_and_Victoria_Harbour_at_dusk%2C_view_from_Victoria_Peak%2C_Hong_Kong%2C_China_-_%E9%A6%99%E6%B8%AF%EF%BC%8C%E4%B8%AD%E5%9B%BD_%2816215094838%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+article h2.blanco {
+    color: white;
+}
